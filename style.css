@@ -1,0 +1,676 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+.spotify {
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+}
+
+.info {
+    position: absolute;
+    color: grey;
+    text-decoration: none;
+    bottom: 30px;
+    left: 1000px;
+    font-size: 13px;
+}
+
+.center {
+    position: absolute;
+    color: grey;
+    text-decoration: none;
+    bottom: 30px;
+    left: 1170px;
+    font-size: 13px;
+}
+
+.konf {
+    position: absolute;
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    bottom: 30px;
+    left: 1420px;
+}
+
+.cookie {
+    position: absolute;
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    bottom: 30px;
+    left: 1620px;
+}
+
+.reklama {
+    position: absolute;
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    bottom: 30px;
+    left: 1820px;
+}
+
+.UA{
+    color:grey;
+    position: absolute;
+    bottom:20px;
+    left:2100px;
+    font-size: 13px;
+}
+
+.UA-2{
+    color:grey;
+    position: absolute;
+    bottom:60px;
+    left:2080px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.insta{
+    position: absolute;
+    left: 2000px;
+    bottom:380px;
+}
+
+.twitter{
+    position: absolute;
+    bottom:380px;
+    left:2080px;
+}
+
+.facce{
+    position: absolute;
+    bottom:383px;
+    left:2170px;
+}
+
+.dost {
+    position: absolute;
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    bottom: 30px;
+    left: 1920px;
+}
+
+.info:hover,
+.center:hover,
+.konf:hover,
+.cookie:hover,
+.reklama:hover,
+.dost:hover {
+    color: green;
+}
+
+.navigation {
+    position: absolute;
+    right: 1000px;
+    top: 30px;
+    display: flex;
+}
+
+.spotify-free {
+    background: linear-gradient(to right, #991199, purple);
+    position: relative;
+    top: 65px;
+}
+
+.spotify-free p {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 150px;
+    left: 1450px;
+}
+
+.free {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 30px;
+    position: relative;
+    left: 1450px;
+    top: 460px
+}
+
+.free:hover {
+    transition: 0.5s ease-in;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+.telefon {
+    position: absolute;
+    left: 1100px;
+    top: 113px
+}
+
+.perevagu {
+    background-color: white;
+    position: relative;
+}
+
+.zapitana {
+    background-color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 100px;
+}
+
+.zapitana span {
+    color: green;
+}
+
+.maete-zapitana {
+    position: absolute;
+    top: 30px;
+    left: 1350px;
+    font-size: 50px;
+}
+
+.pleylist {
+    margin-left: 900px;
+    padding-top: 200px;
+
+}
+
+.playlist-2 {
+    margin-left: 900px;
+    padding-top: 100px;
+}
+
+.playlist-3 {
+    margin-left: 900px;
+    padding-top: 100px;
+}
+
+.menu-list {
+    position: absolute;
+    list-style-type: none;
+    left: 1200px;
+    bottom: 230px;
+}
+
+.menu-list-2 {
+    position: absolute;
+    list-style-type: none;
+    bottom: 85px;
+    left: 1350px;
+}
+
+.menu-list-3 {
+    position: absolute;
+    list-style-type: none;
+    bottom: 200px;
+    left: 1520px;
+}
+
+.menu-list-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-list-4 {
+    position: absolute;
+    list-style-type: none;
+    bottom: 85px;
+    left: 1700px;
+}
+
+.menu-list-4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-list-4 a:hover {
+    color: green
+}
+
+.menu-list-3 a:hover {
+    color: green;
+}
+
+.menu-list-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu-list-2 a:hover {
+    color: green;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item-1 {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: white
+}
+
+.menu-list a:hover {
+    color: green;
+}
+
+footer {
+    position: relative;
+}
+
+.spotify-2 {
+    position: absolute;
+    left: 1000px;
+    bottom: 400px;
+}
+
+.playlist-4 {
+    margin-left: 900px;
+    padding-top: 100px;
+}
+
+.p {
+    text-align: center;
+    font-size: 40px;
+    top: 70px;
+    position: relative;
+}
+
+.gotovi-2 {
+    background-image: linear-gradient(to top, #582849, #ff00b4);
+    position: relative;
+    bottom: 150px;
+}
+
+.gotovi-2 h1 {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 1150px
+}
+
+.prem:hover{
+    color:greenyellow;
+}
+
+.free-2 {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 30px;
+    position: relative;
+    top: 200px;
+    left: 1400px;
+}
+
+.free-2:hover {
+    transition: 0.5s ease-in;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+}
+
+.img-1 {
+    position: relative;
+    left: 1040px;
+    top: 80px;
+}
+
+.img-2 {
+    position: relative;
+    top: 60px;
+    left: 1140px;
+}
+
+.img-3 {
+    position: relative;
+    top: 60px;
+    left: 1260px;
+}
+
+.img-4 {
+    position: relative;
+    top: 63px;
+    left: 1360px;
+}
+
+.text-img-1 {
+    position: absolute;
+    text-align: center;
+    left: 1020px;
+    top: 370px;
+}
+
+.text-img-2 {
+    position: absolute;
+    text-align: center;
+    left: 1300px;
+    top: 370px;
+}
+
+.text-img-3 {
+    position: absolute;
+    text-align: center;
+    top: 370px;
+    left: 1610px;
+}
+
+.text-img-4 {
+    position: absolute;
+    text-align: center;
+    top: 370px;
+    left: 1900px;
+}
+
+.perevagu span {
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: greenyellow;
+}
+
+.gotovi {
+    position: relative;
+    background-image: linear-gradient(to bottom, Fuchsia, BlueViolet);
+    bottom: 50px;
+    color: white
+}
+
+.gotovi p {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 40px;
+}
+
+.container {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    color: white;
+    right: 1450px;
+    top: 13px;
+    display: flex;
+}
+
+.panel {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 10px;
+    background-color: gray;
+    border: 1px solid #ccc;
+}
+
+
+#trigger:hover+.panel {
+    display: flex;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:3000px) {
+    .navigation {
+        left: 1250px
+    }
+
+    .spotify {
+        left: 600px
+    }
+
+    .container {
+        left: 1150px
+    }
+
+    .telefon{
+        left:660px;
+    }
+
+    .spotify-free p{
+        left:1030px;
+    }
+
+    .free{
+        left:1030px;
+    }
+
+    .img-1{
+        left:650px
+    }
+
+    .text-img-1{
+        left: 630px;
+    }
+
+    .img-2{
+        left:750px;
+    }
+
+    .text-img-2{
+        left:925px;
+    }
+
+    .img-3{
+        left:880px;
+    }
+
+    .text-img-3{
+        left:1230px;
+    }
+
+    .img-4{
+        left:980px;
+    }
+
+    .text-img-4{
+        left:1500px;
+    }
+
+    .maete-zapitana{
+        left:950px;
+    }
+
+    .pleylist{
+        margin-left: 600px;
+    }
+
+    .playlist-2{
+        margin-left: 600px;
+    }
+
+    .playlist-3{
+        margin-left: 600px;
+    }
+
+    .playlist-4{
+        margin-left: 600px;
+    }
+
+    .free-2{
+        left: 1000px;
+    }
+
+    .gotovi-2 h1{
+        left:800px;
+    }
+
+    .spotify-2{
+        left: 600px;
+    }
+
+    .menu-list{
+        left:750px;
+    }
+
+    .menu-list-2{
+        left: 880px;
+    }
+
+    .menu-list-3{
+        left:1050px;
+    }
+
+    .menu-list-4{
+        left:1220px;
+    }
+    
+    .info{
+        left:600px;
+    }
+
+    .center{
+        left: 800px;
+    }
+
+    .konf{
+        left: 1050px;
+    }
+
+    .cookie{
+        left: 1250px;
+    }
+
+    .reklama{
+        left: 1450px;
+    }
+
+    .dost{
+        left:1550px;
+    }
+
+    .UA{
+        left:1750px;
+    }
+
+    .UA-2{
+        left: 1750px;
+    }
+
+    .insta{
+        left:1600px;
+    }
+
+    .twitter{
+        left: 1680px;
+    }
+
+    .facce{
+        left: 1770px;
+    }
+}
+
+@media screen and (max-width:2500px) {
+    .navigation {
+        left: 1250px
+    }
+
+    .spotify {
+        left: 600px
+    }
+
+    .container {
+        left: 1145px;
+    }
+}
+
+@media screen and (max-width:2200px) {
+    .navigation {
+        left: 1100px;
+    }
+
+    .spotify {
+        left: 480px;
+    }
+
+    .container {
+        left: 1000px;
+    }
+}
+
+@media screen and (max-width:2100px) {
+    .navigation {
+        left: 950px;
+    }
+
+    .spotify {
+        left: 300px;
+    }
+
+    .container {
+        left: 850px;
+    }
+}
+
+@media screen and (max-width:1900px) {
+    .navigation {
+        left: 850px;
+    }
+
+    .spotify {
+        left: 200px
+    }
+
+    .container {
+        left: 750px;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    .navigation {
+        left: 750px
+    }
+
+    .spotify {
+        left: 150px;
+    }
+
+    .container {
+        left: 650px;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .navigation {
+        left: 500px;
+    }
+
+    .spotify {
+        left: 50px;
+    }
+
+    .container {
+        left: 400px;
+    }
+}
